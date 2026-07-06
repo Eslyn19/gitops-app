@@ -9,7 +9,7 @@ app.use(express.json());
 app.get('/health', (req, res) => {
   res.json({
     status: 'healthy',
-    version: process.env.APP_VERSION || '1.0.0',
+    version: process.env.APP_VERSION || '2.0.0',
   });
 });
 
